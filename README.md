@@ -24,7 +24,7 @@ V.    El dueño del cuaderno no puede volver atrás un force push.
 
 ## 🍎 Sobre mí
 
-- 🎓 Estudiante en la **UPV/EHU**
+- 🎓 Estudiante en **Uni Eibar**
 - 🧠 Me gusta automatizar todo lo que se pueda: bots, herramientas de desarrollo y servidores propios
 - 🐧 Uso Arch Linux (Omarchy + Hyprland), por supuesto
 - 🎮 En mis ratos libres hago juegos y proyectos de rol
@@ -65,10 +65,10 @@ V.    El dueño del cuaderno no puede volver atrás un force push.
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=igorlizasodev-hash&show_icons=true&hide_border=true&bg_color=0d0d0d&title_color=B30000&icon_color=B30000&text_color=e6e6e6" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=igorlizasodev-hash&layout=compact&hide_border=true&bg_color=0d0d0d&title_color=B30000&text_color=e6e6e6" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=igorlizasodev-hash&theme=github_dark" />
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=igorlizasodev-hash&hide_border=true&background=0d0d0d&ring=B30000&fire=B30000&currStreakLabel=B30000&sideLabels=e6e6e6&dates=888888&currStreakNum=e6e6e6&sideNums=e6e6e6" />
+<img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=igorlizasodev-hash&theme=github_dark" />
+<img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=igorlizasodev-hash&theme=github_dark" />
 
 </div>
 
