@@ -2,7 +2,7 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=3000&pause=800&color=B30000&center=true&vCenter=true&width=560&lines=%E2%9C%8E+THE+DEV+NOTE;Lo+que+escribo+aqu%C3%AD+se+ejecuta.;...en+40+segundos." alt="The Dev Note" />
 
-**Lizaso** · Estudiante en Uni Eibar · Arch Linux 🐧
+**Lizaso** · Estudiante en Uni Eibar
 
 </div>
 
@@ -33,7 +33,6 @@ V.    El dueño del cuaderno no puede deshacer un force push.
 ![Node.js](https://img.shields.io/badge/Node.js-0d0d0d?logo=nodedotjs&style=for-the-badge&logoColor=B30000)
 ![Cloudflare](https://img.shields.io/badge/Cloudflare-0d0d0d?logo=cloudflare&style=for-the-badge&logoColor=B30000)
 ![Docker](https://img.shields.io/badge/Docker-0d0d0d?logo=docker&style=for-the-badge&logoColor=B30000)
-![Linux](https://img.shields.io/badge/Arch_Linux-0d0d0d?logo=archlinux&style=for-the-badge&logoColor=B30000)
 
 **Herramientas**<br>
 ![Git](https://img.shields.io/badge/Git-0d0d0d?logo=git&style=for-the-badge&logoColor=B30000)
