@@ -2,7 +2,9 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&duration=3000&pause=800&color=B30000&center=true&vCenter=true&width=560&lines=%E2%9C%8E+THE+DEV+NOTE;Lo+que+escribo+aqu%C3%AD+se+ejecuta.;...en+40+segundos." alt="The Dev Note" />
 
-**Lizaso** · Estudiante en Uni Eibar
+**Lizaso** · Estudiante en Uni Eibar · Full-stack · IA aplicada · Cloudflare
+
+![Repos](https://img.shields.io/badge/proyectos-4-B30000?style=flat-square&labelColor=0d0d0d)
 
 </div>
 
@@ -30,6 +32,8 @@ V.    El dueño del cuaderno no puede deshacer un force push.
 ![CSS3](https://img.shields.io/badge/CSS3-0d0d0d?logo=css&style=for-the-badge&logoColor=B30000)
 
 **Backend e infraestructura**<br>
+![React](https://img.shields.io/badge/React-0d0d0d?logo=react&style=for-the-badge&logoColor=B30000)
+![Rust](https://img.shields.io/badge/Rust-0d0d0d?logo=rust&style=for-the-badge&logoColor=B30000)
 ![Node.js](https://img.shields.io/badge/Node.js-0d0d0d?logo=nodedotjs&style=for-the-badge&logoColor=B30000)
 ![Cloudflare](https://img.shields.io/badge/Cloudflare-0d0d0d?logo=cloudflare&style=for-the-badge&logoColor=B30000)
 ![Docker](https://img.shields.io/badge/Docker-0d0d0d?logo=docker&style=for-the-badge&logoColor=B30000)
@@ -42,12 +46,20 @@ V.    El dueño del cuaderno no puede deshacer un force push.
 
 </div>
 
+### 🍎 Proyectos destacados
+
+| Proyecto | Qué es | Stack |
+| --- | --- | --- |
+| [**DinoLove**](https://github.com/lizasodev/DinoLove) | App para parejas: planes, calendario, ruleta de citas, cartitas y recuerdos | `React` `TypeScript` `Capacitor` `Cloudflare Workers` |
+| [**Agendia**](https://github.com/lizasodev/agenda-bot-whatsapp) | Agente de IA que gestiona citas por WhatsApp, con panel admin y RGPD | `Node.js` `React` `Claude` |
+| [**RippleFix**](https://github.com/lizasodev/RippleFix) | Análisis de impacto determinista para FastAPI + Pydantic + TypeScript | `Rust` `tree-sitter` |
+
 ### 📊 Registro de almas
 
 <div align="center">
 
-<img height="150" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=igorlizasodev-hash&theme=github_dark" />
-<img height="150" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=igorlizasodev-hash&theme=github_dark" />
+<img height="150" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=lizasodev&theme=github_dark" />
+<img height="150" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=lizasodev&theme=github_dark" />
 
 *"Voy a convertirme en el dios de este nuevo mundo... sin bugs."* 🍎
 
