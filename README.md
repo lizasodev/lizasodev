@@ -6,8 +6,6 @@
 
 **Lizaso** · Estudiante en Uni Eibar
 
-<img src="https://img.shields.io/github/followers/lizasodev?label=seguidores&style=for-the-badge&color=B30000&labelColor=0d0d0d" alt="Seguidores" />
-<img src="https://img.shields.io/github/stars/lizasodev?label=manzanas&style=for-the-badge&color=B30000&labelColor=0d0d0d" alt="Estrellas" />
 
 </div>
 
@@ -21,19 +19,6 @@ II.   Si se escribe un bug, desaparecerá en 40 segundos (o en el siguiente comm
 III.  Si no se especifica la causa del fallo, será un "works on my machine".
 IV.   Todo cambio debe pasar por una Pull Request. Sin excepciones.
 V.    El dueño del cuaderno no puede deshacer un force push.
-VI.   Quien toque el cuaderno podrá ver al shinigami que revisa el código.
-```
-
-## 🕯️ El portador del cuaderno
-
-```ts
-const lizaso = {
-  alias: "lizasodev",
-  rol: "Estudiante y desarrollador full-stack",
-  obsesiones: ["agentes de IA", "edge computing", "herramientas para devs"],
-  ahoraMismo: "Escribiendo nombres de bugs en el cuaderno",
-  manzanas: Infinity,
-};
 ```
 
 ## ✒️ Nombres escritos en el cuaderno
@@ -80,29 +65,15 @@ const lizaso = {
 
 <div align="center">
 
-**Lenguajes**<br>
 ![JavaScript](https://img.shields.io/badge/JavaScript-0d0d0d?logo=javascript&style=for-the-badge&logoColor=B30000)
 ![TypeScript](https://img.shields.io/badge/TypeScript-0d0d0d?logo=typescript&style=for-the-badge&logoColor=B30000)
 ![Python](https://img.shields.io/badge/Python-0d0d0d?logo=python&style=for-the-badge&logoColor=B30000)
 ![Rust](https://img.shields.io/badge/Rust-0d0d0d?logo=rust&style=for-the-badge&logoColor=B30000)
-![HTML5](https://img.shields.io/badge/HTML5-0d0d0d?logo=html5&style=for-the-badge&logoColor=B30000)
-![CSS3](https://img.shields.io/badge/CSS3-0d0d0d?logo=css&style=for-the-badge&logoColor=B30000)
-
-**Frontend y móvil**<br>
 ![React](https://img.shields.io/badge/React-0d0d0d?logo=react&style=for-the-badge&logoColor=B30000)
-![Vite](https://img.shields.io/badge/Vite-0d0d0d?logo=vite&style=for-the-badge&logoColor=B30000)
-![Capacitor](https://img.shields.io/badge/Capacitor-0d0d0d?logo=capacitor&style=for-the-badge&logoColor=B30000)
-
-**Backend e infraestructura**<br>
 ![Node.js](https://img.shields.io/badge/Node.js-0d0d0d?logo=nodedotjs&style=for-the-badge&logoColor=B30000)
-![Hono](https://img.shields.io/badge/Hono-0d0d0d?logo=hono&style=for-the-badge&logoColor=B30000)
 ![Cloudflare](https://img.shields.io/badge/Cloudflare-0d0d0d?logo=cloudflare&style=for-the-badge&logoColor=B30000)
 ![Docker](https://img.shields.io/badge/Docker-0d0d0d?logo=docker&style=for-the-badge&logoColor=B30000)
-
-**Herramientas**<br>
 ![Git](https://img.shields.io/badge/Git-0d0d0d?logo=git&style=for-the-badge&logoColor=B30000)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-0d0d0d?logo=githubactions&style=for-the-badge&logoColor=B30000)
-![Arch Linux](https://img.shields.io/badge/Arch_Linux-0d0d0d?logo=archlinux&style=for-the-badge&logoColor=B30000)
 ![Hyprland](https://img.shields.io/badge/Hyprland-0d0d0d?logo=hyprland&style=for-the-badge&logoColor=B30000)
 ![Claude](https://img.shields.io/badge/Claude-0d0d0d?logo=claude&style=for-the-badge&logoColor=B30000)
 
@@ -114,8 +85,6 @@ const lizaso = {
 
 <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=lizasodev&theme=github_dark" alt="Estadísticas" />
 <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=lizasodev&theme=github_dark" alt="Lenguajes con más commits" />
-
-<img src="https://streak-stats.demolab.com?user=lizasodev&hide_border=true&background=0D0D0D&ring=B30000&fire=B30000&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=B30000&sideLabels=B30000&dates=888888&stroke=3d0000" alt="Racha de commits" />
 
 </div>
 
