@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  Estudiante en la Universidad de Eibar. Construyo herramientas que se usan de verdad,<br>
+  Estudiante en Uni Eibar. Construyo herramientas que se usan de verdad,<br>
   automatizo lo aburrido y aplico IA donde aporta. También colaboro en <a href="https://github.com/ts-community"><b>TS Community</b></a>.
 </p>
 
