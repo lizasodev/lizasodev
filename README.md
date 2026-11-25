@@ -1,17 +1,17 @@
 <p align="center">
-  <img src="./assets/banner.svg" alt="LizasoDev — Full-stack developer" width="100%" />
+  <img src="./assets/banner.svg?v=2" alt="LizasoDev — Full-stack developer" width="100%" />
 </p>
 
 <p align="center">
-  Estudiante en Uni Eibar. Construyo herramientas que se usan de verdad,<br>
-  automatizo lo aburrido y aplico IA donde aporta. También colaboro en <a href="https://github.com/ts-community"><b>TS Community</b></a>.
+  <img src="./assets/about-uni.svg?v=1" alt="Estudiante en Uni Eibar" width="24%" />
+  <img src="./assets/about-tools.svg?v=1" alt="Construyo apps y tools" width="24%" />
+  <img src="./assets/about-ai.svg?v=1" alt="Aplico IA donde aporta" width="24%" />
+  <a href="https://github.com/ts-community"><img src="./assets/about-team.svg?v=1" alt="Colaboro en TS Community" width="24%" /></a>
 </p>
 
-<br>
-
 <p align="center">
-  <a href="https://github.com/lizasodev/RippleFix"><img src="./assets/card-ripplefix.svg" alt="RippleFix" width="49%" /></a>
-  <a href="https://github.com/lizasodev/eco"><img src="./assets/card-eco.svg" alt="eco" width="49%" /></a>
-  <img src="./assets/card-agendia.svg" alt="Agendia" width="49%" />
-  <img src="./assets/card-dinolove.svg" alt="DinoLove" width="49%" />
+  <a href="https://github.com/lizasodev/RippleFix"><img src="./assets/card-ripplefix.svg?v=2" alt="RippleFix" width="49%" /></a>
+  <a href="https://github.com/lizasodev/eco"><img src="./assets/card-eco.svg?v=2" alt="eco" width="49%" /></a>
+  <img src="./assets/card-agendia.svg?v=2" alt="Agendia" width="49%" />
+  <img src="./assets/card-dinolove.svg?v=2" alt="DinoLove" width="49%" />
 </p>
