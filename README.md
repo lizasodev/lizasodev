@@ -1,3 +1,5 @@
+<p align="center"><img src="./assets/banner.svg" alt="LizasoDev" width="100%" /></p>
+
 <h1 align="center">Hola, soy LizasoDev 🥀</h1>
 
 <p align="center">

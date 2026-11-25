@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-label="LizasoDev — Full-stack developer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07040a"/>
+      <stop offset="0.55" stop-color="#14060d"/>
+      <stop offset="1" stop-color="#2a0712"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ff2d55" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#ff2d55" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.5" stop-color="#ffd1dc"/>
+      <stop offset="1" stop-color="#ff2d55"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#fff" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ff2d55" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+    <clipPath id="frame"><rect width="1200" height="340" rx="22"/></clipPath>
+    <clipPath id="txt">
+      <text x="600" y="185" text-anchor="middle" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="104" font-weight="900" letter-spacing="-2">LizasoDev</text>
+    </clipPath>
+    <style>
+      .pulse{animation:pulse 6s ease-in-out infinite;transform-origin:600px 170px}
+      @keyframes pulse{0%,100%{opacity:.55;transform:scale(1)}50%{opacity:1;transform:scale(1.12)}}
+      .sweep{animation:sweep 5s ease-in-out infinite}
+      @keyframes sweep{0%{transform:translateX(-700px)}60%,100%{transform:translateX(700px)}}
+      .petal{animation:fall linear infinite}
+      @keyframes fall{0%{transform:translate(0,-40px) rotate(0deg);opacity:0}10%{opacity:.9}100%{transform:translate(-120px,400px) rotate(320deg);opacity:0}}
+      .fade{animation:fade 1.6s ease-out both}
+      .fade2{animation:fade 1.6s .5s ease-out both}
+      @keyframes fade{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+      .blink{animation:blink 1.1s steps(1) infinite}
+      @keyframes blink{50%{opacity:0}}
+    </style>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="340" fill="url(#bg)"/>
+    <rect width="1200" height="340" fill="url(#grid)"/>
+    <ellipse class="pulse" cx="600" cy="170" rx="420" ry="190" fill="url(#glow)"/>
+
+    <!-- pétalos -->
+    <g fill="#ff2d55">
+      <path class="petal" style="animation-duration:9s;animation-delay:0s" d="M180 0c8-10 22-6 20 6-2 10-14 14-20 6z"/>
+      <path class="petal" style="animation-duration:11s;animation-delay:2s;fill:#b3002d" d="M420 0c8-10 22-6 20 6-2 10-14 14-20 6z"/>
+      <path class="petal" style="animation-duration:8s;animation-delay:4s" d="M760 0c6-8 18-5 16 5-2 8-11 11-16 5z"/>
+      <path class="petal" style="animation-duration:12s;animation-delay:1s;fill:#ff6b88" d="M980 0c8-10 22-6 20 6-2 10-14 14-20 6z"/>
+      <path class="petal" style="animation-duration:10s;animation-delay:6s;fill:#b3002d" d="M1120 0c6-8 18-5 16 5-2 8-11 11-16 5z"/>
+      <path class="petal" style="animation-duration:13s;animation-delay:3s;fill:#ff6b88" d="M600 0c6-8 18-5 16 5-2 8-11 11-16 5z"/>
+    </g>
+
+    <!-- líneas decorativas -->
+    <g stroke="#ff2d55" stroke-width="2" stroke-linecap="round" opacity="0.8">
+      <line x1="250" y1="225" x2="450" y2="225"/>
+      <line x1="750" y1="225" x2="950" y2="225"/>
+    </g>
+    <circle cx="600" cy="225" r="4" fill="#ff2d55"/>
+
+    <!-- título -->
+    <g class="fade">
+      <text x="600" y="185" text-anchor="middle" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="104" font-weight="900" letter-spacing="-2" fill="#ff2d55" opacity="0.35" transform="translate(4 5)">LizasoDev</text>
+      <text x="600" y="185" text-anchor="middle" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="104" font-weight="900" letter-spacing="-2" fill="url(#title)">LizasoDev</text>
+      <g clip-path="url(#txt)"><rect class="sweep" x="380" y="80" width="160" height="130" fill="url(#shine)" transform="skewX(-20)"/></g>
+    </g>
+
+    <!-- subtítulo -->
+    <g class="fade2" font-family="'Cascadia Code','Fira Code',Consolas,monospace" font-size="22" text-anchor="middle">
+      <text x="600" y="272" fill="#ffd1dc"><tspan fill="#ff2d55">&gt;</tspan> full-stack · IA aplicada · herramientas que se usan<tspan class="blink" fill="#ff2d55">▌</tspan></text>
+    </g>
+
+    <text x="1160" y="318" text-anchor="end" font-size="26">🥀</text>
+    <rect x="1" y="1" width="1198" height="338" rx="22" fill="none" stroke="#ff2d55" stroke-opacity="0.35" stroke-width="2"/>
+  </g>
+</svg>
