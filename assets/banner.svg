@@ -1,81 +1,182 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 340" width="1200" height="340" role="img" aria-label="LizasoDev — Full-stack developer">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="1200" height="380" role="img" aria-label="LizasoDev — Full-stack developer">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#07040a"/>
-      <stop offset="0.55" stop-color="#14060d"/>
-      <stop offset="1" stop-color="#2a0712"/>
+      <stop offset="0" stop-color="#050a07"/>
+      <stop offset="0.5" stop-color="#0b0a0a"/>
+      <stop offset="1" stop-color="#1c0509"/>
     </linearGradient>
-    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0" stop-color="#ff2d55" stop-opacity="0.55"/>
-      <stop offset="1" stop-color="#ff2d55" stop-opacity="0"/>
+    <radialGradient id="glowR" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ff1f3d" stop-opacity="0.65"/>
+      <stop offset="1" stop-color="#ff1f3d" stop-opacity="0"/>
     </radialGradient>
+    <radialGradient id="glowG" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#1fd16a" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#1fd16a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="petal" cx="0.5" cy="0.75" r="0.8">
+      <stop offset="0" stop-color="#ff4d63"/>
+      <stop offset="0.6" stop-color="#d0102e"/>
+      <stop offset="1" stop-color="#6e0014"/>
+    </radialGradient>
+    <radialGradient id="petalIn" cx="0.5" cy="0.7" r="0.7">
+      <stop offset="0" stop-color="#ff6b7d"/>
+      <stop offset="1" stop-color="#9e0020"/>
+    </radialGradient>
+    <linearGradient id="stem" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2be37a"/>
+      <stop offset="1" stop-color="#0b6b33"/>
+    </linearGradient>
     <linearGradient id="title" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#ffffff"/>
-      <stop offset="0.5" stop-color="#ffd1dc"/>
-      <stop offset="1" stop-color="#ff2d55"/>
+      <stop offset="0" stop-color="#ff2d47"/>
+      <stop offset="0.45" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#2be37a"/>
     </linearGradient>
     <linearGradient id="shine" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#fff" stop-opacity="0"/>
-      <stop offset="0.5" stop-color="#fff" stop-opacity="0.85"/>
+      <stop offset="0.5" stop-color="#fff" stop-opacity="0.9"/>
       <stop offset="1" stop-color="#fff" stop-opacity="0"/>
     </linearGradient>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M40 0H0V40" fill="none" stroke="#ff2d55" stroke-opacity="0.07" stroke-width="1"/>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff2d47"/>
+      <stop offset="1" stop-color="#2be37a"/>
+    </linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#2be37a" stroke-opacity="0.06"/>
     </pattern>
-    <clipPath id="frame"><rect width="1200" height="340" rx="22"/></clipPath>
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+    <clipPath id="frame"><rect width="1200" height="380" rx="24"/></clipPath>
     <clipPath id="txt">
-      <text x="600" y="185" text-anchor="middle" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="104" font-weight="900" letter-spacing="-2">LizasoDev</text>
+      <text x="430" y="190" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="112" font-weight="900" letter-spacing="-3">LizasoDev</text>
     </clipPath>
     <style>
-      .pulse{animation:pulse 6s ease-in-out infinite;transform-origin:600px 170px}
-      @keyframes pulse{0%,100%{opacity:.55;transform:scale(1)}50%{opacity:1;transform:scale(1.12)}}
-      .sweep{animation:sweep 5s ease-in-out infinite}
-      @keyframes sweep{0%{transform:translateX(-700px)}60%,100%{transform:translateX(700px)}}
-      .petal{animation:fall linear infinite}
-      @keyframes fall{0%{transform:translate(0,-40px) rotate(0deg);opacity:0}10%{opacity:.9}100%{transform:translate(-120px,400px) rotate(320deg);opacity:0}}
-      .fade{animation:fade 1.6s ease-out both}
-      .fade2{animation:fade 1.6s .5s ease-out both}
-      @keyframes fade{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
-      .blink{animation:blink 1.1s steps(1) infinite}
+      .pulse{animation:pulse 5s ease-in-out infinite}
+      @keyframes pulse{0%,100%{opacity:.6}50%{opacity:1}}
+      .sway{animation:sway 6s ease-in-out infinite;transform-origin:230px 370px}
+      @keyframes sway{0%,100%{transform:rotate(-2deg)}50%{transform:rotate(2deg)}}
+      .bloom{animation:bloom 4s ease-in-out infinite;transform-origin:230px 135px}
+      @keyframes bloom{0%,100%{transform:scale(1)}50%{transform:scale(1.04)}}
+      .sweep{animation:sweep 4.5s ease-in-out infinite}
+      @keyframes sweep{0%{transform:translateX(-300px) skewX(-20deg)}55%,100%{transform:translateX(900px) skewX(-20deg)}}
+      .fall{animation:fall linear infinite}
+      @keyframes fall{0%{transform:translate(0,0) rotate(0);opacity:0}8%{opacity:1}100%{transform:translate(260px,330px) rotate(400deg);opacity:0}}
+      .rise{animation:rise linear infinite}
+      @keyframes rise{0%{transform:translateY(0);opacity:0}15%{opacity:.9}100%{transform:translateY(-260px);opacity:0}}
+      .in1{animation:in .9s ease-out both}
+      .in2{animation:in .9s .35s ease-out both}
+      .in3{animation:in .9s .7s ease-out both}
+      @keyframes in{from{opacity:0;transform:translateX(-18px)}to{opacity:1;transform:none}}
+      .blink{animation:blink 1s steps(1) infinite}
       @keyframes blink{50%{opacity:0}}
+      .dash{stroke-dasharray:8 10;animation:dash 3s linear infinite}
+      @keyframes dash{to{stroke-dashoffset:-36}}
     </style>
   </defs>
 
   <g clip-path="url(#frame)">
-    <rect width="1200" height="340" fill="url(#bg)"/>
-    <rect width="1200" height="340" fill="url(#grid)"/>
-    <ellipse class="pulse" cx="600" cy="170" rx="420" ry="190" fill="url(#glow)"/>
+    <rect width="1200" height="380" fill="url(#bg)"/>
+    <rect width="1200" height="380" fill="url(#grid)"/>
+    <ellipse class="pulse" cx="230" cy="150" rx="260" ry="220" fill="url(#glowR)"/>
+    <ellipse class="pulse" cx="1060" cy="330" rx="320" ry="200" fill="url(#glowG)" style="animation-delay:2.5s"/>
 
-    <!-- pétalos -->
-    <g fill="#ff2d55">
-      <path class="petal" style="animation-duration:9s;animation-delay:0s" d="M180 0c8-10 22-6 20 6-2 10-14 14-20 6z"/>
-      <path class="petal" style="animation-duration:11s;animation-delay:2s;fill:#b3002d" d="M420 0c8-10 22-6 20 6-2 10-14 14-20 6z"/>
-      <path class="petal" style="animation-duration:8s;animation-delay:4s" d="M760 0c6-8 18-5 16 5-2 8-11 11-16 5z"/>
-      <path class="petal" style="animation-duration:12s;animation-delay:1s;fill:#ff6b88" d="M980 0c8-10 22-6 20 6-2 10-14 14-20 6z"/>
-      <path class="petal" style="animation-duration:10s;animation-delay:6s;fill:#b3002d" d="M1120 0c6-8 18-5 16 5-2 8-11 11-16 5z"/>
-      <path class="petal" style="animation-duration:13s;animation-delay:3s;fill:#ff6b88" d="M600 0c6-8 18-5 16 5-2 8-11 11-16 5z"/>
+    <!-- partículas verdes que suben -->
+    <g fill="#2be37a">
+      <circle class="rise" cx="520" cy="390" r="2.5" style="animation-duration:7s"/>
+      <circle class="rise" cx="690" cy="390" r="2" style="animation-duration:9s;animation-delay:2s"/>
+      <circle class="rise" cx="860" cy="390" r="3" style="animation-duration:8s;animation-delay:1s"/>
+      <circle class="rise" cx="1010" cy="390" r="2" style="animation-duration:10s;animation-delay:3s"/>
+      <circle class="rise" cx="1140" cy="390" r="2.5" style="animation-duration:7.5s;animation-delay:4s"/>
+      <circle class="rise" cx="620" cy="390" r="1.5" style="animation-duration:11s;animation-delay:5s"/>
+      <circle class="rise" cx="950" cy="390" r="1.5" style="animation-duration:9.5s;animation-delay:6s"/>
     </g>
 
-    <!-- líneas decorativas -->
-    <g stroke="#ff2d55" stroke-width="2" stroke-linecap="round" opacity="0.8">
-      <line x1="250" y1="225" x2="450" y2="225"/>
-      <line x1="750" y1="225" x2="950" y2="225"/>
+    <!-- enredadera con espinas abajo -->
+    <g fill="none" stroke="#14a04f" stroke-width="3" stroke-linecap="round" opacity="0.55">
+      <path d="M360 372 C 470 330, 560 380, 660 352 S 860 330, 960 360 S 1130 340, 1210 352"/>
+      <path d="M470 343 l-6 -12 M600 366 l4 -12 M760 345 l-5 -12 M900 352 l5 -12 M1080 352 l-4 -12"/>
     </g>
-    <circle cx="600" cy="225" r="4" fill="#ff2d55"/>
-
-    <!-- título -->
-    <g class="fade">
-      <text x="600" y="185" text-anchor="middle" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="104" font-weight="900" letter-spacing="-2" fill="#ff2d55" opacity="0.35" transform="translate(4 5)">LizasoDev</text>
-      <text x="600" y="185" text-anchor="middle" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="104" font-weight="900" letter-spacing="-2" fill="url(#title)">LizasoDev</text>
-      <g clip-path="url(#txt)"><rect class="sweep" x="380" y="80" width="160" height="130" fill="url(#shine)" transform="skewX(-20)"/></g>
+    <g fill="#1fb85e" opacity="0.6">
+      <path d="M520 348c10-20 34-22 40-14-10 14-26 18-40 14z"/>
+      <path d="M820 350c-10-20-34-22-40-14 10 14 26 18 40 14z"/>
+      <path d="M1010 356c10-18 32-20 38-12-10 12-24 16-38 12z"/>
     </g>
 
-    <!-- subtítulo -->
-    <g class="fade2" font-family="'Cascadia Code','Fira Code',Consolas,monospace" font-size="22" text-anchor="middle">
-      <text x="600" y="272" fill="#ffd1dc"><tspan fill="#ff2d55">&gt;</tspan> full-stack · IA aplicada · herramientas que se usan<tspan class="blink" fill="#ff2d55">▌</tspan></text>
+    <!-- ROSA -->
+    <g class="sway">
+      <!-- tallo -->
+      <path d="M232 200 C 226 250, 244 300, 230 380" fill="none" stroke="url(#stem)" stroke-width="9" stroke-linecap="round"/>
+      <path d="M233 255 l-12 -6 M228 300 l13 -6 M235 340 l-12 -5" stroke="#0e8a42" stroke-width="4" stroke-linecap="round"/>
+      <!-- hojas -->
+      <path d="M232 270 C 180 250, 150 270, 132 300 C 175 312, 210 300, 232 270 Z" fill="#17b65d"/>
+      <path d="M232 270 C 195 282, 165 292, 132 300" stroke="#0b6b33" stroke-width="2" fill="none"/>
+      <path d="M230 230 C 280 205, 318 220, 336 250 C 292 266, 252 258, 230 230 Z" fill="#22cc6c"/>
+      <path d="M230 230 C 268 240, 300 246, 336 250" stroke="#0b6b33" stroke-width="2" fill="none"/>
+      <!-- sépalos -->
+      <path d="M232 200 C 205 205, 190 196, 182 182 C 205 186, 222 190, 232 200 Z M232 200 C 258 205, 274 196, 282 182 C 258 186, 242 190, 232 200 Z" fill="#17b65d"/>
+
+      <!-- flor -->
+      <g class="bloom">
+        <ellipse cx="230" cy="135" rx="95" ry="80" fill="#ff1f3d" opacity="0.35" filter="url(#soft)"/>
+        <path d="M230 205 C 150 205, 128 150, 140 102 C 160 125, 190 140, 230 142 C 270 140, 300 125, 320 102 C 332 150, 310 205, 230 205 Z" fill="url(#petal)"/>
+        <path d="M150 115 C 140 70, 180 45, 215 62 C 200 85, 190 115, 196 150 C 172 145, 156 132, 150 115 Z" fill="#b8082a"/>
+        <path d="M310 115 C 320 70, 280 45, 245 62 C 260 85, 270 115, 264 150 C 288 145, 304 132, 310 115 Z" fill="#a3061f"/>
+        <path d="M172 92 C 170 55, 205 38, 232 48 C 262 38, 292 58, 288 95 C 282 125, 258 140, 230 142 C 202 140, 178 124, 172 92 Z" fill="url(#petalIn)"/>
+        <path d="M188 96 C 186 70, 212 58, 236 66 C 220 74, 206 92, 210 118 C 198 114, 190 106, 188 96 Z" fill="#e01a3a"/>
+        <path d="M272 96 C 274 70, 250 56, 226 64 C 248 72, 260 92, 254 120 C 264 114, 270 106, 272 96 Z" fill="#a80522"/>
+        <path d="M206 98 C 206 78, 230 70, 248 80 C 256 96, 248 114, 232 120 C 216 118, 207 110, 206 98 Z" fill="#c90f2e"/>
+        <path d="M218 96 C 220 84, 238 80, 244 92 C 242 104, 230 108, 222 104" fill="none" stroke="#6e0014" stroke-width="5" stroke-linecap="round"/>
+        <path d="M226 94 C 230 88, 238 90, 236 97" fill="none" stroke="#ff6b7d" stroke-width="2.5" stroke-linecap="round"/>
+        <path d="M188 96 C 196 70, 220 60, 240 62" fill="none" stroke="#ff7a8a" stroke-width="2" opacity="0.7"/>
+        <path d="M150 115 C 160 140, 190 150, 230 152" fill="none" stroke="#ff5a70" stroke-width="2" opacity="0.6"/>
+        <path d="M310 115 C 300 140, 270 150, 230 152" fill="none" stroke="#ff5a70" stroke-width="2" opacity="0.6"/>
+      </g>
     </g>
 
-    <text x="1160" y="318" text-anchor="end" font-size="26">🥀</text>
-    <rect x="1" y="1" width="1198" height="338" rx="22" fill="none" stroke="#ff2d55" stroke-opacity="0.35" stroke-width="2"/>
+    <!-- pétalos cayendo desde la rosa -->
+    <g>
+      <path class="fall" style="animation-duration:7s" d="M260 160c8-10 22-6 20 6-2 10-14 14-20 6z" fill="#ff2d47"/>
+      <path class="fall" style="animation-duration:9s;animation-delay:2.2s" d="M200 170c8-10 22-6 20 6-2 10-14 14-20 6z" fill="#b8082a"/>
+      <path class="fall" style="animation-duration:8s;animation-delay:4.5s" d="M290 130c6-8 18-5 16 5-2 8-11 11-16 5z" fill="#ff4d63"/>
+      <path class="fall" style="animation-duration:10s;animation-delay:6s" d="M240 180c6-8 18-5 16 5-2 8-11 11-16 5z" fill="#d0102e"/>
+    </g>
+
+    <!-- TEXTO -->
+    <g class="in1" font-family="'Cascadia Code','Fira Code',Consolas,monospace" font-size="18" letter-spacing="4">
+      <text x="434" y="78" fill="#2be37a">// FULL-STACK DEVELOPER</text>
+    </g>
+    <g class="in2">
+      <text x="430" y="190" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="112" font-weight="900" letter-spacing="-3" fill="#ff1f3d" opacity="0.4" transform="translate(5 6)">LizasoDev</text>
+      <text x="430" y="190" font-family="'Segoe UI',Inter,Helvetica,Arial,sans-serif" font-size="112" font-weight="900" letter-spacing="-3" fill="url(#title)">LizasoDev</text>
+      <g clip-path="url(#txt)"><rect class="sweep" x="380" y="80" width="140" height="130" fill="url(#shine)"/></g>
+    </g>
+    <line x1="434" y1="216" x2="1110" y2="216" stroke="url(#line)" stroke-width="2.5" class="dash"/>
+    <g class="in3">
+      <text x="434" y="258" font-family="'Cascadia Code','Fira Code',Consolas,monospace" font-size="22" fill="#e9f7ee"><tspan fill="#ff2d47">❯</tspan> código que llega a producción · IA aplicada<tspan class="blink" fill="#2be37a">█</tspan></text>
+      <!-- chips -->
+      <g font-family="'Cascadia Code','Fira Code',Consolas,monospace" font-size="15" font-weight="700">
+        <rect x="434" y="282" width="128" height="34" rx="17" fill="#ff1f3d" fill-opacity="0.12" stroke="#ff2d47"/>
+        <text x="498" y="304" text-anchor="middle" fill="#ff6b7d">TypeScript</text>
+        <rect x="574" y="282" width="80" height="34" rx="17" fill="#2be37a" fill-opacity="0.12" stroke="#2be37a"/>
+        <text x="614" y="304" text-anchor="middle" fill="#6ff0a6">Rust</text>
+        <rect x="666" y="282" width="100" height="34" rx="17" fill="#ff1f3d" fill-opacity="0.12" stroke="#ff2d47"/>
+        <text x="716" y="304" text-anchor="middle" fill="#ff6b7d">Python</text>
+        <rect x="778" y="282" width="90" height="34" rx="17" fill="#2be37a" fill-opacity="0.12" stroke="#2be37a"/>
+        <text x="823" y="304" text-anchor="middle" fill="#6ff0a6">React</text>
+        <rect x="880" y="282" width="128" height="34" rx="17" fill="#ff1f3d" fill-opacity="0.12" stroke="#ff2d47"/>
+        <text x="944" y="304" text-anchor="middle" fill="#ff6b7d">Cloudflare</text>
+        <rect x="1020" y="282" width="90" height="34" rx="17" fill="#2be37a" fill-opacity="0.12" stroke="#2be37a"/>
+        <text x="1065" y="304" text-anchor="middle" fill="#6ff0a6">IA</text>
+      </g>
+    </g>
+
+    <!-- esquinas tipo HUD -->
+    <g fill="none" stroke-width="3" stroke-linecap="round">
+      <path d="M1150 28 h24 v24" stroke="#2be37a"/>
+      <path d="M1174 328 v24 h-24" stroke="#ff2d47"/>
+    </g>
+    <g font-family="'Cascadia Code','Fira Code',Consolas,monospace" font-size="13" fill="#2be37a" opacity="0.7" text-anchor="end">
+      <text x="1140" y="46">status: <tspan fill="#ff6b7d">online</tspan></text>
+    </g>
+
+    <rect x="1.5" y="1.5" width="1197" height="377" rx="23" fill="none" stroke="url(#line)" stroke-opacity="0.5" stroke-width="3"/>
   </g>
 </svg>
